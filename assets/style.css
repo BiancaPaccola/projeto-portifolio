@@ -66,6 +66,7 @@ a{
         rgba(255,255,255, 0.25);
     backdrop-filter: blur(-9px);
     border-radius: 82px;
+    position: relative;
 }
 
 #ovini{
@@ -91,9 +92,8 @@ a{
 }
 
 .botao-sobre-mim{
-    margin-top: 2%;
-    position: absolute;
-    margin-left: -6%;
+    margin-left: 15px;
+   margin-top: 20px;
 }
 
 #my-galaxy{
@@ -240,3 +240,12 @@ textarea {
     margin-bottom: 25px;
 }
 
+#msg-obg{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3vw;
+}
