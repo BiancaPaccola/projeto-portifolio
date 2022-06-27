@@ -22,20 +22,22 @@
     <main class="contato">
         <fieldset class="formulario-contato">
           <legend>Formulário para contato</legend>
-              <form action="#" class="form">
+              <form action="https://api.staticforms.xyz/submit" method="post" class="form">
+                <input type="hidden" name="accessKey" value="90fc31f6-f2f1-4280-a2ba-f947e127c0a5">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" />
+                <input type="text" name="name" id="nome" />
                 <label for="email">E-mail</label>
                 <input type="text" name="email" id="email" />
-                <label for="mens">Mensagem</label>
+                <label for="message">Mensagem</label>
                 <textarea
-                  name="mens"
-                  id="mens"
+                  name="message"
+                  id="message"
                   cols="30"
                   rows="5"
                   maxlength="300">
                 </textarea>
                 <input type="submit" value="Enviar contato" class="botao-neon"/>
+                <input type="hidden" name="redirectTo" value="https://accurate-planes.surge.sh/check.html">
               </form>
         </fieldset>
     </main>
