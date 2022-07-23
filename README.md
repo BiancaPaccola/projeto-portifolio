@@ -1,5 +1,6 @@
 # projeto-portifolio
-Projeto de portfólio desenvolvido para o curso de Desenvolvimento Web para treinar o aprendizado em CSS (em andamento)
+Projeto de portfólio desenvolvido para o curso de Desenvolvimento Web para treinar o aprendizado em CSS. 
+Primeiro desenvolvi em cass padrão, depois atualizei para flexbox.
 
 Ferramenta usada no formulário: [Static Forms](https://www.staticforms.xyz/) <br>
 Link do [Surge](https://accurate-planes.surge.sh/index.html)
